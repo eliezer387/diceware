@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 
 var Diceware = require('./Diceware.model.js');
 var port = 8080;
-var db = 'mongodb://localhost/test';
+var db = 'mongodb://<MONGODB_USER>:<DB_PASSWORD>@ds147551.mlab.com:47551/heroku_kktxs6kd';
 
 mongoose.connect(db);
 mongoose.set('debug', true);
